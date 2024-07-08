@@ -1,13 +1,16 @@
+
 import {
   Links,
   Meta,
   Outlet,
   Scripts,
 } from "@remix-run/react";
+import Layout from "./components/Layout";
 
 export default function App() {
   return (
     <html>
+       <Layout>
       <head>
         <link
           rel="icon"
@@ -22,6 +25,7 @@ export default function App() {
 
         <Scripts />
       </body>
+      </Layout>
     </html>
   );
 }
