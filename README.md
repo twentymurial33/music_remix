@@ -33,17 +33,10 @@ Mention who you are and link to your GitHub or organization's website.
 ```
 
 
-## ⬇️ Installation
+## ⬇️  Documentation
 
-Simple, understandable installation instructions!
+https://remix.run/docs/en/main/start/quickstart
 
-```bash
-pip install my-package
-```
-
-And be sure to specify any other minimum requirements like Python versions or operating systems.
-
-*You may be inclined to add development instructions here, don't.*
 
 
 ## 💭 Technologies
