@@ -4,10 +4,13 @@ Developing this app using `remix` , its an application that will allow users to 
 
 ## ℹ️ Overview
 
-A paragraph explaining your work, who you are, and why you made it.
+A paragraph explaining your work, who you are
 
-## 🌟 Problems Solved 
+## 🌟 How to Run the app
 
+Locally 
+
+Production
 
 ### ✍️ Authors
 Murial [https://murial-devportfolio.netlify.app/]
@@ -15,11 +18,13 @@ Murial [https://murial-devportfolio.netlify.app/]
 
 ## ⬇️  Documentation
 
-https://remix.run/docs/en/main/start/quickstart
+[https://remix.run/docs/en/main/start/quickstart]
+[https://tailwindcss.com/docs/guides/remix]
 
 
-## 💭 Technologies
+## 💭 Technologies Used 
 
 - Remix
 - Prisma 
 - Cloudinary
+- Tailwind CSS
