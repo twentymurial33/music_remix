@@ -5,7 +5,8 @@ import {
   Outlet,
   Scripts,
 } from "@remix-run/react";
-import Layout from "./components/Layout";
+import stylesheet from "~/tailwind.css?url";
+
 
 export default function App() {
   return (
@@ -28,4 +29,7 @@ export default function App() {
       </Layout>
     </html>
   );
+}
+export function links() {
+  [{rel: "stylesheet", href: stylesheet }]
 }
