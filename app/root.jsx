@@ -1,11 +1,12 @@
-
 import {
   Links,
   Meta,
   Outlet,
   Scripts,
 } from "@remix-run/react";
-import Layout from "./components/Layout";
+import MainNavigation from "~/components/MainNavigation";
+import stylesheet from "~/tailwind.css?url";
+
 
 export default function App() {
   return (
@@ -20,7 +21,10 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <h1>Hello world!</h1>
+          <header>
+          <MainNavigation />
+        </header>
+
         <Outlet />
 
         <Scripts />
@@ -28,4 +32,7 @@ export default function App() {
       </Layout>
     </html>
   );
+}
+export function links() {
+  [{rel: "stylesheet", href: stylesheet }]
 }
