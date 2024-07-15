@@ -6,7 +6,14 @@ Developing this app using `remix` , its an application that will allow users to 
 
 A paragraph explaining your work, who you are, and why you made it.
 
-## 🌟 Problems Solved 
+
+## Development
+
+Run the dev server:
+
+```shellscript
+npm run dev
+```
 
 
 ### ✍️ Authors
@@ -15,7 +22,8 @@ Murial [https://murial-devportfolio.netlify.app/]
 
 ## ⬇️  Documentation
 
-https://remix.run/docs/en/main/start/quickstart
+- 📖 [Remix docs](https://remix.run/docs)
+
 
 
 ## 💭 Technologies
@@ -23,3 +31,4 @@ https://remix.run/docs/en/main/start/quickstart
 - Remix
 - Prisma 
 - Cloudinary
+
