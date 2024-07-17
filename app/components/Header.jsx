@@ -1,11 +1,11 @@
-import styled from "styled-components";
-import Image from "next/image";
+import {styled} from 'styled-components';
+
 
 function Header() {
   return (
     <StyledContainer>
       <StyledWrapper>
-        <Image src="logo.png" alt="Logo" height={40} width={20} />
+        {/* <Image src="logo.png" alt="Logo" height={40} width={20} /> */}
         <StyledList>
           <li>
             <a href="#">Pricing</a>

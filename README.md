@@ -4,7 +4,7 @@ Developing this app using `remix` , its an application that will allow users to 
 
 ## ℹ️ Overview
 
-A paragraph explaining your work, who you are, and why you made it.
+A paragraph explaining your work, who you are
 
 
 ## Development
@@ -15,6 +15,9 @@ Run the dev server:
 npm run dev
 ```
 
+Locally 
+
+Production
 
 ### ✍️ Authors
 Murial [https://murial-devportfolio.netlify.app/]
@@ -26,9 +29,13 @@ Murial [https://murial-devportfolio.netlify.app/]
 
 
 
-## 💭 Technologies
+## 💭 Technologies Used 
 
 - Remix
 - Prisma 
 - Cloudinary
+<<<<<<< HEAD
+- Tailwind CSS
+=======
 
+>>>>>>> main
