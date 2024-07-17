@@ -4,7 +4,6 @@ import {
   Outlet,
   Scripts,
 } from "@remix-run/react";
-// import MainNavigation from "./components/MainNavigation";
 // import stylesheet from "~/tailwind.css?url";
 
 
