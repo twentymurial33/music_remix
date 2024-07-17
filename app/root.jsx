@@ -4,14 +4,14 @@ import {
   Outlet,
   Scripts,
 } from "@remix-run/react";
-import MainNavigation from "~/components/MainNavigation";
-import stylesheet from "~/tailwind.css?url";
+// import MainNavigation from "./components/MainNavigation";
+// import stylesheet from "~/tailwind.css?url";
 
 
 export default function App() {
   return (
     <html>
-       <Layout>
+    
       <head>
         <link
           rel="icon"
@@ -22,17 +22,17 @@ export default function App() {
       </head>
       <body>
           <header>
-          <MainNavigation />
+          {/* <MainNavigation /> */}
         </header>
 
         <Outlet />
 
         <Scripts />
       </body>
-      </Layout>
+   
     </html>
   );
 }
-export function links() {
-  [{rel: "stylesheet", href: stylesheet }]
-}
+// export function links() {
+//   [{rel: "stylesheet", href: stylesheet }]
+// }
