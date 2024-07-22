@@ -9,15 +9,16 @@ A paragraph explaining your work, who you are
 
 ## Development
 
-Run the dev server:
+From your terminal:
 
 ```shellscript
 npm run dev
 ```
 
-Locally 
+This starts your app in development mode, rebuilding assets on file changes.
 
-Production
+You'll also need a Postgres database running.
+
 
 ### ✍️ Authors
 Murial [https://murial-devportfolio.netlify.app/]
