@@ -1,8 +1,13 @@
-import React from 'react'
+
+import Header from "../components/Header";
 
 function music() {
   return (
-    <div>music</div>
+    <div>
+     <Header/>
+      <div>music</div>
+    </div>
+  
   )
 }
 
