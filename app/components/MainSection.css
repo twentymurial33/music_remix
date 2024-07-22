@@ -1,0 +1,51 @@
+.yoga-wear-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #A5694F; 
+  padding: 50px; 
+}
+
+.content {
+  max-width: 50%;
+  color: white; 
+}
+
+.content h1 {
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.25rem; 
+  margin-bottom: 30px;
+}
+
+.shop-now-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: white;
+  color: #A5694F;
+}
+
+.image-container {
+  max-width: 50%;
+  position: relative;
+}
+
+.yoga-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
