@@ -27,15 +27,12 @@ Murial [https://murial-devportfolio.netlify.app/]
 
 - 📖 [Remix docs](https://remix.run/docs)
 
-
+[https://medium.com/@mlomax_46744/remix-crash-guide-fdf876e81a17]
 
 ## 💭 Technologies Used 
 
 - Remix
 - Prisma 
 - Cloudinary
-<<<<<<< HEAD
 - Tailwind CSS
-=======
 
->>>>>>> main
