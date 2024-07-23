@@ -35,4 +35,5 @@ Murial [https://murial-devportfolio.netlify.app/]
 - Prisma 
 - Cloudinary
 - Tailwind CSS
+- Docker
 
