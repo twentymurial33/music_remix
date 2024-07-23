@@ -1,20 +1,17 @@
-import styles from './NewNote.css';
+import {Form} from "@remix-run/react";
 
 function MusicForm() {
   return (
-    <form method="post" id="note-form">
-      <p>
+    <Form method="post">
         <label htmlFor="title">Title</label>
         <input type="text" id="title" name="title" required />
-      </p>
-      <p>
+     <br />
+   
         <label htmlFor="content">Content</label>
         <textarea id="content" name="content" rows="5" required />
-      </p>
-      <div className="form-actions">
-        <button>Add Note</button>
-      </div>
-    </form>
+      <br />
+        <button type="submit">Add Note</button>
+    </Form>
   );
 }
 
@@ -23,3 +20,4 @@ export default MusicForm;
 export function links() {
   return [{ rel: 'stylesheet', href: styles }];
 }
+

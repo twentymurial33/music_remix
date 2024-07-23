@@ -1,11 +1,13 @@
 import Header from "../components/Header";
+import MusicForm from "../components/Music";
+import Footer from "../components/Footer";
 
 function music() {
-  //users will upload music and workpouts
   return (
     <div>
      <Header/>
-      <div>music</div>
+     <MusicForm/>
+    <Footer/>
     </div>
   
   )

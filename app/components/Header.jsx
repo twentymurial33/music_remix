@@ -9,9 +9,7 @@ function Header() {
       <img src="your-logo.png" alt="Logo" />
       </div>    
         <nav className="navbar">
-        <a href="#community" className="nav-link">Community</a>
         <a href="#resources" className="nav-link">Resources</a>
-        <a href="#pricing2" className="nav-link">Pricing</a>
         <a href="#contact" className="nav-link">Contact</a>
          <Link to="/music">Music</Link>
         </nav>

@@ -5,7 +5,7 @@ const MainSection = () => {
   return (
     <section className="yoga-wear-section">
       <div className="content">
-        <h1>Friendly Music for everyone.</h1>
+        <h1>Friendly Music & Workouts.</h1>
         <button className="shop-now-btn">Listen Now</button>
       </div>
       <div className="image-container">

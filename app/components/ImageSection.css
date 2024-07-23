@@ -1,14 +1,12 @@
-.main-section {
-  align-items: center;
-  justify-content: space-between;
-  background-color: aqua;
-  padding: 50px; 
-  border: 1px solid red;
-  margin-right: 10px;
 
+.mycontainer {
+  width:100%;
+  overflow:auto;
+  margin-right: 20px;
+  background-color: #ebdddd;
 }
 
-.content {
-  max-width: 50%;
-  color: black; 
+.mycontainer div {
+  width:33%;  
+  float:left;
 }

@@ -1,16 +1,22 @@
 import ImageSectionStyles from './ImageSection.css';
-import yogaImage from './path-to-your-image.jpg'; 
+import music from "../components/assets/images/music.jpg";
+import workout from "../components/assets/images/workout.jpg";
+import hacking from "../components/assets/images/hacking.jpg";
 
 const ImageSection = () => {
   return (
-    <section className="main-section">
-      <div className="main-content">
-        <h1>Friendly Music for everyone.</h1>    
-      </div>
-      <div >
-       <h1> Hello</h1>
-      </div>
-    </section>
+    <div className="mycontainer">
+  <div>
+    <img src={workout} width={300} height={220} alt="workout" style={{marginTop:'10px',marginLeft:'300px'}}/>
+  </div>
+  <div>
+    <img src={music} width={300} height={220} alt="music" style={{marginTop:'10px',marginLeft:'260px'}} />
+  </div>
+  {/* <div>
+    <img src={hacking} width={300} height={220} alt="hacking" style={{marginTop:'10px',marginLeft:'20px'}}/>
+  </div> */}
+
+</div>
   );
 };
 
