@@ -1,7 +1,6 @@
 # 📦 My Music_Remix app
 
-Developing this app using `remix` , its an application that will allow users to enjoy music selections based on the selected workouts 
-
+A full-stack web application for managing all the collections of music and workouts using `remix`
 ## ℹ️ Overview
 
 A paragraph explaining your work, who you are
@@ -9,15 +8,16 @@ A paragraph explaining your work, who you are
 
 ## Development
 
-Run the dev server:
+From your terminal:
 
 ```shellscript
 npm run dev
 ```
 
-Locally 
+This starts your app in development mode, rebuilding assets on file changes.
 
-Production
+You'll also need a Postgres database running.
+
 
 ### ✍️ Authors
 Murial [https://murial-devportfolio.netlify.app/]
