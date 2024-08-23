@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import MainSectionStyles from './MainSection.css';
 
 
@@ -28,9 +29,7 @@ const MainSection = () => {
         <h1>Friendly Music & Workouts.</h1>
         <button className="shop-now-btn" onClick={playRandomGenre}>Listen Now</button>
       </div>
-      <div className="image-container">
-        <img src={yogaImage} alt="Yoga" className="yoga-image" />
-      </div>
+     
     </section>
   );
 };

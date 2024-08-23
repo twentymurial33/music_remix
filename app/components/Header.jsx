@@ -4,10 +4,7 @@ import { Link } from "@remix-run/react";
 
 function Header() {
   return (
-    <header className="header">
-      <div className="logo"> 
-      <img src="your-logo.png" alt="Logo" />
-      </div>    
+    <header className="header">  
         <nav className="navbar">
         <a href="#resources" className="nav-link">Resources</a>
         <a href="#contact" className="nav-link">Contact</a>

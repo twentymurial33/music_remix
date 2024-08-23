@@ -1,7 +1,7 @@
 import ImageSectionStyles from './ImageSection.css';
 import music from "../components/assets/images/music.jpg";
 import workout from "../components/assets/images/workout.jpg";
-import hacking from "../components/assets/images/hacking.jpg";
+//import hacking from "../components/assets/images/hacking.jpg";
 
 const ImageSection = () => {
   return (
